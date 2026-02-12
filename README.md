@@ -116,5 +116,3 @@ Open the `.pbix` file in **Microsoft Power BI Desktop** and refresh the data sou
 * **Model Serving**: Containerize the inference engine using **Docker** and **FastAPI**.
 * **Cloud Scaling**: Adapt the pipeline for **AWS SageMaker** using the existing `S3` artifact logic.
 * **RAG Integration**: Connect the sentiment engine to a retrieval system for analyzing long-form financial reports.
-
-```
