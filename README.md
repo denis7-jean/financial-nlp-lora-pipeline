@@ -32,13 +32,17 @@ Integrated a comprehensive analytics dashboard to monitor model health beyond si
 
 ```mermaid
 graph LR
-    A[Raw Data (Financial Phrasebank)] --> B[Tokenization & Formatting]
+    A["Raw Data (Financial Phrasebank)"] --> B[Tokenization & Formatting]
     B --> C[FinBERT Base Model]
     C --> D{LoRA Adapter Config}
-    D --> E[FP16 Training Loop (RTX 2060)]
-    E --> F[Evaluation & Serialization]
-    F --> G[JSON/CSV Logs]
-    G --> H[Power BI Dashboard]
+    D --> E["FP16 Training Loop (RTX 2060)"]
+    F["Evaluation & Serialization"]
+    G["JSON/CSV Logs"]
+    H["Power BI Dashboard"]
+
+    E --> F
+    F --> G
+    G --> H
 
 ```
 
