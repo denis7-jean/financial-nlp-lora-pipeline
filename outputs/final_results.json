@@ -1,0 +1,13 @@
+{
+  "test_metrics": {
+    "eval_loss": 0.0984371155500412,
+    "eval_accuracy": 0.9823529411764705,
+    "eval_macro_f1": 0.9747673373768494,
+    "eval_weighted_f1": 0.9824498170790411,
+    "eval_runtime": 1.9384,
+    "eval_samples_per_second": 175.4,
+    "eval_steps_per_second": 43.85,
+    "epoch": 5.0
+  },
+  "pred_label_distribution": {
+    
