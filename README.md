@@ -46,16 +46,28 @@ graph LR
 
 ```
 
-## 📊 Experimental Results
+## 📊 Experimental Results & Observability
 
 We evaluated the pipeline on the **Financial PhraseBank** dataset.
 
 | Metric | Score | Insight |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | **Accuracy** | **98.24%** | Outperforms standard BERT baselines |
 | **Avg Confidence** | **99.11%** | Model is highly calibrated |
 | **Trainable Params** | **~0.6%** | Drastic reduction in memory footprint |
 | **Training Time** | **< 5 mins** | Rapid iteration capability |
+
+### 📈 Interactive Dashboard (Power BI)
+
+We developed a custom dashboard to monitor model health and perform error attribution.
+
+#### 1. Model Overview
+*Real-time tracking of accuracy, confidence distribution, and class balance.*
+![Dashboard Overview](assets/dashboard_overview.png)
+
+#### 2. Error Analysis (The "Bad Cases")
+*Drill-down into specific misclassifications. The scatter plot (Top Right) reveals "High Confidence Errors" which require data cleaning.*
+![Error Analysis](assets/dashboard_error_analysis.png)
 
 ## 📂 Project Structure
 
