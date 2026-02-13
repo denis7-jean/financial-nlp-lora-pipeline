@@ -44,6 +44,10 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Use LoRA/PEFT if set; otherwise standard fine-tuning.",
     )
+    # --- parameters definition ---
+    parser.add_argument("--lora_r", type=int, default=8, help="LoRA rank parameter.")
+    parser.add_argument("--lora_alpha", type=int, default=16, help="LoRA alpha parameter.")
+    # ------------------
     parser.add_argument(
         "--use_s3",
         action="store_true",
@@ -128,7 +132,7 @@ def main() -> None:
         subset="sentences_allagree",
         use_s3=args.use_s3,
         bucket=None,  # replace with your bucket if using S3 ingestion
-        key=None,     # replace with your key if using S3 ingestion
+        key=None,  # replace with your key if using S3 ingestion
         max_length=args.max_length,
     )
 
@@ -136,11 +140,17 @@ def main() -> None:
     logger.info("Detected %d labels.", num_labels)
 
     logger.info("Initializing model (LoRA=%s)...", args.use_lora)
+
+    # --- extend parameters to get_model ---
     model = get_model(
         model_name=args.model_name,
         num_labels=num_labels,
         use_lora=args.use_lora,
+        lora_r=args.lora_r,
+        lora_alpha=args.lora_alpha,
     )
+    # -----------------------------------
+
     # ---- DEBUG: verify which params are trainable (important for LoRA) ----
     logger.info("=== Trainable parameters check ===")
     trainable = []
@@ -167,8 +177,8 @@ def main() -> None:
         per_device_eval_batch_size=args.batch_size,
 
         # LoRA-friendly
-        learning_rate=1e-4,
-        num_train_epochs=5,
+        learning_rate=args.lr,  # use args.lr
+        num_train_epochs=args.epochs,  # use args.epochs
         warmup_ratio=0.1,
         weight_decay=0.01,
         max_grad_norm=1.0,
@@ -185,7 +195,7 @@ def main() -> None:
 
         # logs
         logging_steps=50,
-        report_to=[],   # or "none"
+        report_to=[],  # or "none"
     )
 
     trainer = WeightedCELossTrainer(
@@ -255,14 +265,14 @@ def main() -> None:
     error_priority = {"misclassification": 0, "low_confidence": 1}
     error_df = (
         evaluation_df[evaluation_df["error_type"] != "ok"]
-        .assign(_error_rank=lambda d: d["error_type"].map(error_priority).fillna(2).astype(int))
-        .copy()
-        .sort_values(
+            .assign(_error_rank=lambda d: d["error_type"].map(error_priority).fillna(2).astype(int))
+            .copy()
+            .sort_values(
             by=["_error_rank", "confidence", "margin"],
             ascending=[True, True, True],
         )
-        .head(ERROR_TOP_K)
-        .drop(columns=["_error_rank"])
+            .head(ERROR_TOP_K)
+            .drop(columns=["_error_rank"])
     )
     error_samples_path = os.path.join(args.output_dir, "error_samples.csv")
     error_df.to_csv(error_samples_path, index=False)
@@ -274,7 +284,7 @@ def main() -> None:
     # ===== FINAL RESULTS EXPORT =====
     final_results = {
         "test_metrics": test_metrics,
-        "pred_label_distribution": dict(Counter(y_pred)),
+        "pred_label_distribution": {int(k): int(v) for k, v in Counter(y_pred).items()},
         "training_config": {
             "learning_rate": training_args.learning_rate,
             "epochs": training_args.num_train_epochs,

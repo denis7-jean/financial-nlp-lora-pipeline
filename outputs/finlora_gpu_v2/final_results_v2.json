@@ -1,0 +1,36 @@
+{
+  "test_metrics": {
+    "eval_loss": 0.153549462556839,
+    "eval_accuracy": 0.9764705882352941,
+    "eval_macro_f1": 0.9690055053038904,
+    "eval_weighted_f1": 0.9764251463210253,
+    "eval_runtime": 2.4459,
+    "eval_samples_per_second": 139.01,
+    "eval_steps_per_second": 17.581,
+    "epoch": 4.0
+  },
+  "pred_label_distribution": {
+    "0": 48,
+    "1": 211,
+    "2": 81
+  },
+  "training_config": {
+    "learning_rate": 0.0005,
+    "epochs": 4,
+    "warmup_ratio": 0.1,
+    "weight_decay": 0.01,
+    "batch_size": 8,
+    "lora_target_modules": [
+      "query",
+      "key",
+      "value"
+    ],
+    "fp16": false,
+    "model_name": "ProsusAI/finbert",
+    "use_lora": true,
+    "run_id": "prosusai-finbert-lora1-fp160-20260213-020441",
+    "timestamp": "2026-02-13T02:04:41Z",
+    "low_confidence_threshold": 0.6,
+    "error_top_k": 100
+  }
+}

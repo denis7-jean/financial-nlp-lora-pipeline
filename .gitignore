@@ -1,24 +1,42 @@
+# --- Virtual Environments ---
 venv/
 env/
 .venv/
 
+# --- Python Cache ---
 __pycache__/
 *.py[cod]
 *$py.class
 
-outputs/checkpoint-*/
-outputs/*.bin
-outputs/*.safetensors
-outputs/*.pt
+# --- Global Model Weights ---
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
 
+# --- Hugging Face Trainer Artifacts ---
+# checkpoint
+**/checkpoint-*/
 
-!outputs/evaluation_log.csv
-!outputs/final_results.json
+# Tokenizer files
+outputs/**/tokenizer*
+outputs/**/vocab.txt
+outputs/**/special_tokens_map.json
 
+# Config & States
+outputs/**/adapter_config.json
+outputs/**/trainer_state.json
+outputs/**/rng_state.pth
+outputs/**/optimizer.pt
 
+# README (Model Card)
+outputs/**/README.md
+
+# --- IDE Settings ---
 .vscode/
 .idea/
 
-
+# --- OS Files ---
 .DS_Store
 Thumbs.db

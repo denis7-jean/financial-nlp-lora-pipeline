@@ -12,6 +12,8 @@ def get_model(
     model_name: str,
     num_labels: int,
     use_lora: bool = True,
+    lora_r: int = 8,
+    lora_alpha: int = 16,
 ) -> Union[PreTrainedModel, object]:
     """
     Load a base sequence classification model; optionally wrap it with LoRA/PEFT.
@@ -26,11 +28,11 @@ def get_model(
         logger.info("Returning standard model (no LoRA).")
         return base_model
 
-    logger.info("Applying LoRA (PEFT) to the base model.")
+    logger.info(f"Applying LoRA (PEFT) to the base model with r={lora_r}, alpha={lora_alpha}.")
     lora_config = LoraConfig(
         task_type=TaskType.SEQ_CLS,
-        r=8,
-        lora_alpha=16,
+        r=lora_r,              # variable input
+        lora_alpha=lora_alpha, # variable input
         lora_dropout=0.1,
         target_modules=["query", "key", "value"],
         bias="none",

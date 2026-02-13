@@ -21,7 +21,7 @@ Designed for resource-constrained environments, it leverages **LoRA (Low-Rank Ad
 Integrated a comprehensive analytics dashboard to monitor model health beyond simple metrics:
 - **Error Attribution**: Automatically identifies and categorizes failures (e.g., "Misclassification" vs. "Low Confidence").
 - **Confidence Calibration**: Visualizes `Prediction Confidence` vs. `Margin` to detect decision boundary issues.
-- **Version Control**: Tracks performance metrics across different experiment runs (e.g., `v1` vs `v2`).
+- **Version Control**: Tracks performance metrics across different experiment runs (Baseline vs. V1 vs. V2).
 
 ### 3. Production-Ready Engineering
 - **Robust Serialization**: Implemented a custom JSON layer to handle **NumPy type compatibility** (`int64`/`float32`), ensuring metadata is ready for downstream API consumption.
@@ -48,41 +48,53 @@ graph LR
 
 ## 📊 Experimental Results & Observability
 
-We evaluated the pipeline on the **Financial PhraseBank** dataset.
+We conducted a rigorous A/B testing framework comparing the **Zero-shot Baseline**, **LoRA V1 (Rank 8)**, and **LoRA V2 (Rank 16)** on the Financial PhraseBank dataset.
 
-| Metric | Score | Insight |
-| :--- | :--- | :--- |
-| **Accuracy** | **98.24%** | Outperforms standard BERT baselines |
-| **Avg Confidence** | **99.11%** | Model is highly calibrated |
-| **Trainable Params** | **~0.6%** | Drastic reduction in memory footprint |
-| **Training Time** | **< 5 mins** | Rapid iteration capability |
+### 1. Model Performance Comparison
+![Model Performance Comparison](assets/benchmark_chart.png)
+*The chart below illustrates that **V1 (LoRA r=8)** achieves the best balance between accuracy and generalization. Interestingly, increasing the rank to 16 (V2) led to overfitting, confirming that a lightweight adapter is optimal for this task.*
 
-### 📈 Interactive Dashboard (Power BI)
+| Experiment | Configuration | Accuracy | Macro F1 | Insight |
+| --- | --- | --- | --- | --- |
+| **Baseline** | Zero-shot | 97.94% | 0.9721 | Strong foundation, but struggles with edge cases. |
+| **V1 (Champion)** | **LoRA r=8** | **98.24%** | **0.9788** | **Best Performance.** Successfully converted critical errors into "Low Confidence" warnings. |
+| **V2** | LoRA r=16 | 97.65% | 0.9690 | **Overfitting.** High confidence but lower accuracy (diminishing returns). |
 
-We developed a custom dashboard to monitor model health and perform error attribution.
+---
 
-#### 1. Model Overview
-*Real-time tracking of accuracy, confidence distribution, and class balance.*
+### 2. Deep Dive: Champion Model (V1) Analytics
+
+*Visualizations of the best-performing model (V1) using our Power BI dashboard.*
+
+#### A. Model Overview
 ![Dashboard Overview](assets/dashboard_overview.png)
+*Real-time tracking of accuracy, confidence distribution, and class balance.*
 
-#### 2. Error Analysis (The "Bad Cases")
-*Drill-down into specific misclassifications. The scatter plot (Top Right) reveals "High Confidence Errors" which require data cleaning.*
+#### B. Error Analysis (The "Bad Cases")
 ![Error Analysis](assets/dashboard_error_analysis.png)
+*Drill-down into specific misclassifications. The scatter plot (Top Right) reveals "High Confidence Errors" which require data cleaning.*
 
 ## 📂 Project Structure
 
 ```bash
 .
-├── config/             # LoRA configuration (lora_config.json)
+├── assets/                 # Project screenshots & benchmark charts
+├── config/                 # LoRA configuration (lora_config.json)
 ├── src/
-│   ├── data_loader.py  # Dataset preparation & tokenization
-│   ├── model.py        # LoRA model initialization
-│   ├── trainer.py      # Custom Hugging Face Trainer wrapper
-│   └── utils.py        # Metrics (Accuracy, F1) & Logging
-├── outputs/            # Artifacts: checkpoints, logs, results.json
-├── train.py            # Main entry point for training
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation
+│   ├── data_loader.py      # Dataset preparation & tokenization
+│   ├── model.py            # LoRA model initialization
+│   ├── trainer.py          # Custom Hugging Face Trainer wrapper
+│   └── utils.py            # Metrics (Accuracy, F1) & Logging
+├── outputs/                # Experiment artifacts & logs
+│   ├── baseline/           # Zero-shot baseline results
+│   ├── finlora_gpu_v1/     # Champion model (Rank 8) results
+│   ├── finlora_gpu_v2/     # Overfitting experiment (Rank 16) results
+│   └── master_evaluation_log_v3.csv # Consolidated log for Power BI
+├── train.py                # Main entry point for training
+├── evaluate_baseline.py    # Zero-shot evaluation script
+├── merge_logs.py           # Script to combine logs for Power BI
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
 
 ```
 
@@ -117,11 +129,9 @@ python train.py \
 
 ### 3. View Analytics
 
-Open the `.pbix` file in **Microsoft Power BI Desktop** and refresh the data source to point to your local `outputs/evaluation_log.csv`.
-
+Open the `.pbix` file in **Microsoft Power BI Desktop** and refresh the data source to point to your local `outputs/master_evaluation_log_v3.csv`.
 
 ## 🔮 Future Improvements
 
 * **Model Serving**: Containerize the inference engine using **Docker** and **FastAPI**.
-* **Cloud Scaling**: Adapt the pipeline for **AWS SageMaker** using the existing `S3` artifact logic.
 * **RAG Integration**: Connect the sentiment engine to a retrieval system for analyzing long-form financial reports.

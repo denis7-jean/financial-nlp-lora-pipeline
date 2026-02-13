@@ -1,0 +1,341 @@
+text,true_label,pred_label,confidence,margin,run_id,True_Label_Name,Pred_Label_Name,correct,error_type
+Sanoma News ' advertising sales decreased by 22 % during the year .,1,1,0.9743121,0.95534766,baseline,negative,negative,1,ok
+The intent of the article was to focus attention on the fact that the development model that China had followed was very different than the model that India had followed .,2,2,0.86954325,0.7924622,baseline,neutral,neutral,1,ok
+"Country : , Finland Sector : Construction-Real Estate Target : Pohjolan Design-Talo Oy Buyer : CapMan Oyj Vendor : Ruukki Group Oyj Deal size in USD : 102.6 m Type : Divestment Status : Agreed",2,2,0.93906045,0.8943229,baseline,neutral,neutral,1,ok
+"Both operating profit and net sales for the 12-month period increased , respectively from EUR21 .5 m and EUR196 .1 m , as compared to 2005 .",0,0,0.9576216,0.9347927,baseline,positive,positive,1,ok
+"The parties have agreed not to disclose the price of the deal , the group said in a press release .",2,2,0.9356549,0.8946438,baseline,neutral,neutral,1,ok
+The estimated value of the deal is USD 9.2 million .,2,2,0.94466835,0.9022087,baseline,neutral,neutral,1,ok
+"A total of 1,800,000 stock options were issued in the 2003 stock option scheme .",2,2,0.94678855,0.9141136,baseline,neutral,neutral,1,ok
+"Department store sales improved by 14 % to EUR 1,070.6 mn .",0,0,0.96119475,0.93875444,baseline,positive,positive,1,ok
+"The 10,000-odd square metre plot that Stockmann has bought for the Nevsky Center shopping center is located on Nevsky Prospect , St Petersburg 's high street , next to the Vosstaniya Square underground station , in the immediate vicinity of",2,2,0.94196934,0.8987964,baseline,neutral,neutral,1,ok
+"The total donation amount is EUR 1,115,000 .",2,2,0.9280293,0.8669122,baseline,neutral,neutral,1,ok
+"The company reported a profit of 800,000 euro ($ 1.2 mln)on the sale of its Varesvuo Partners sub-group and a loss of 400,000 euro $ 623,000 caused by the sale of its program production subsidiary Oy Filmiteollisuus Fine Ab .",2,1,0.9569447,0.9251121,baseline,neutral,negative,0,misclassification
+Finnish Rautaruukki has been awarded a contract to supply and install steel superstructures for the Partihallsf+Ârbindelsen bridge in Gothenburg in Sweden .,0,0,0.94474626,0.90297115,baseline,positive,positive,1,ok
+Consolidated pretax profit decreased by 69.2 % to EUR 41.0 mn from EUR 133.1 mn in 2007 .,1,1,0.97609735,0.96125996,baseline,negative,negative,1,ok
+"She will succeed Krister Kylas , who has decided to leave TeliaSonera .",2,2,0.84444475,0.7143965,baseline,neutral,neutral,1,ok
+Operating profit improved by 16.7 % to EUR 7.7 mn .,0,0,0.96241903,0.9408547,baseline,positive,positive,1,ok
+The total value of the contract is some EUR 8 million .,2,2,0.94359696,0.90377086,baseline,neutral,neutral,1,ok
+"Rockwell Collins is a provider of flight deck , cabin and information management solutions for business aircraft operators .",2,2,0.9030544,0.8167619,baseline,neutral,neutral,1,ok
+The bond has a value of EUR150m and a maturity of 4 years .,2,2,0.9454014,0.90504444,baseline,neutral,neutral,1,ok
+Cameco typically prices sales contracts using a 40:60 ratio of fixed prices and spot prices .,2,2,0.9428444,0.913272,baseline,neutral,neutral,1,ok
+Marimekko is considering further measures in the matter .,2,2,0.85845584,0.739259,baseline,neutral,neutral,1,ok
+It 's not .,2,2,0.8432264,0.75098324,baseline,neutral,neutral,1,ok
+Ruukki 's order book at the end of 2010 was 30 % up year-on-year and 10 % up quarter-on-quarter .,0,0,0.95483136,0.9309419,baseline,positive,positive,1,ok
+The profit after taxes was EUR 57.7 11.1 million .,2,2,0.9333922,0.897769,baseline,neutral,neutral,1,ok
+"The company generates net sales of about 600 mln euro $ 775.5 mln annually and employs 6,000 .",2,2,0.9404148,0.89961624,baseline,neutral,neutral,1,ok
+"Erkki Jarvinen , President of Rautakirja and the head of the Sanoma Trade division , will leave his current tasks in spring 2009 for a similar position outside the Sanoma Group .",2,2,0.9096758,0.8440293,baseline,neutral,neutral,1,ok
+Why not give your bedroom a cool makeover for summer .,2,2,0.908354,0.8356552,baseline,neutral,neutral,1,ok
+"The company operates worldwide and employs in total approximately 47,000 persons .",2,2,0.94172263,0.90015125,baseline,neutral,neutral,1,ok
+"F-Secure Internet Security 2010 is a security service for surfing the web , online banking and shopping , e-mail , and other online activities .",2,2,0.9454246,0.90605867,baseline,neutral,neutral,1,ok
+The dividends payable annually shall be deducted from the share subscription price .,2,2,0.9449595,0.9104553,baseline,neutral,neutral,1,ok
+"The company 's profit totaled Ls 578,100 in H1 2007 , down 30.9 % year-on-year .",1,1,0.97580135,0.95857024,baseline,negative,negative,1,ok
+- Operating profit rose by 26.9 % to EUR 105.8 ( 83.4 ) million .,0,0,0.95953214,0.93886334,baseline,positive,positive,1,ok
+NWC ANALYSIS :,2,2,0.93920636,0.898834,baseline,neutral,neutral,1,ok
+"Pretax profit totalled EUR 2.0 mn , compared to a loss of EUR 159.2 mn in the fourth quarter of 2008 .",0,0,0.8849398,0.78729045,baseline,positive,positive,1,ok
+"Previously , the company expected its 2008 financial performance to remain at the same level as in 2008 .",2,0,0.73678505,0.57944703,baseline,neutral,positive,0,misclassification
+No planned closing date was provided .,2,2,0.94245464,0.9045085,baseline,neutral,neutral,1,ok
+The value of the total investment is about EUR 600mn .,2,2,0.9460743,0.9051263,baseline,neutral,neutral,1,ok
+Revenue in the quarter fell 8 percent to ( EURO ) 2.4 billion compared to a year earlier .,1,1,0.9773287,0.96197754,baseline,negative,negative,1,ok
+"The tests , conducted at Nokia Siemens ' LTE center of competence in Espoo , Finland , follow the company 's production start of LTE-ready Flexi Multiradio Base Stations for the 800 MHz band in April 2010 , and complement earlier tests with",2,2,0.83529586,0.6796743,baseline,neutral,neutral,1,ok
+The company 's board of directors would propose a dividend of EUR1 .00 per share for 2005 .,2,2,0.9334877,0.8819297,baseline,neutral,neutral,1,ok
+Most of the dividend will go to the Grimaldi family .,2,2,0.9564992,0.931557,baseline,neutral,neutral,1,ok
+The total value of these two contracts is over EUR 21 million .,2,2,0.92744106,0.8686402,baseline,neutral,neutral,1,ok
+"Systeemitiimi 's sales and project resources will also be strengthened , director Paul Skogberg said .",0,0,0.957461,0.9305067,baseline,positive,positive,1,ok
+"OUTOTEC OYJ PRESS RELEASE , FEBRUARY 19 , 2008 AT 11.00 AM Outotec has won two large minerals processing technology orders from Mirabela Mineracao do Brasil Ltda , Brazil and from Cumerio Med JSCo , Bulgaria .",0,0,0.9469182,0.9109373,baseline,positive,positive,1,ok
+"Global sports equipment maker Amer Sports Corp. , whose brands include Atomic , Salomon and Wilson , saw a 64 percent increase in third-quarter net profit to EURO 47.4 million $ 65 million on strong sales and cost cuts .",0,0,0.95432216,0.930587,baseline,positive,positive,1,ok
+"Following the demerger , the vice president of the group 's pharmaceutical trade in Finland , Jukka Niemi , will be appointed managing director of Oriola in addition to his current responsibilities .",2,2,0.9493597,0.922486,baseline,neutral,neutral,1,ok
+"The divested company is part of TietoEnator 's business area Government , Manufacturing & Retail .",2,2,0.95088696,0.92056507,baseline,neutral,neutral,1,ok
+"Sales in Latin America increased by 42 % to EUR 432mn , and a total of 8.7 mn mobile devices were sold in the area , representing an increase of 32 % from the corresponding period in 2009 .",0,0,0.95389915,0.92737985,baseline,positive,positive,1,ok
+Fancy Dans on the move FAB Glasgow gift and interiors store Fancy Dans is moving !,2,2,0.8952082,0.8171518,baseline,neutral,neutral,1,ok
+"In a release on Oct. 28 , Peab said the two businesses will continue to be conducted under the brands Cliffton and Stockholm Entreprenad , both part of the Peab Group .",2,2,0.92827845,0.8669201,baseline,neutral,neutral,1,ok
+"The Stockmann department store will have a total floor space of over 8,000 square metres and Stockmann 's investment in the project will have a price tag of about EUR 12 million .",2,2,0.920394,0.8512102,baseline,neutral,neutral,1,ok
+"Net sales totaled EUR 93.6 mn , up from EUR 93.2 mn in the corresponding period in 2005 .",0,0,0.95333695,0.9262163,baseline,positive,positive,1,ok
+"( ADP News ) - Oct 31 , 2008 - Finnish food company Raisio Oyj ( OMX : RAIVV ) said today that its net profit jumped to EUR 16.4 million ( USD 20.9 m ) for the first nine months of 2008 from EUR 1.1 million for the same period of 2",0,0,0.9442791,0.913171,baseline,positive,positive,1,ok
+"( ADP News ) - Oct 1 , 2008 - Finnish consulting and engineering company Poyry Oyj ( OMX : POY1V ) said today it was awarded a EUR 5.2 million ( USD 7.4 m ) extension to their existing consultancy engineering contract with Venezuel",0,0,0.94987935,0.92242366,baseline,positive,positive,1,ok
+"UPM-Kymmene www.upm-kymmene.com produces magazine papers and newsprint , as well as fine and specialty papers , converting materials and wood products .",2,2,0.9519259,0.9264966,baseline,neutral,neutral,1,ok
+"In January , traffic , measured in revenue passenger kilometres RPK , went up by 3.2 % and capacity , measured in available seat kilometres ASK , rose by 12.2 % .",0,0,0.95888853,0.93468016,baseline,positive,positive,1,ok
+"The Group 's turnover in 2006 was EUR 39.2 million , and operating profit was EUR 3.9 million .",2,2,0.9386732,0.90646,baseline,neutral,neutral,1,ok
+"( ADP News ) - Feb 11 , 2009 - Finnish wood products technology supplier Raute Oyj ( HEL : RUTAV ) said today its net profit decreased to EUR 4.7 million ( USD 6.1 m ) for 2008 from EUR 6.6 million for 2007 .",1,1,0.9745242,0.9562434,baseline,negative,negative,1,ok
+The first stage of the contract covers 133 stores and 600 cash registers .,2,2,0.93328476,0.8786854,baseline,neutral,neutral,1,ok
+Net interest income increased by 4.5 % to EUR 31.4 mn from EUR 30.0 mn in 2004 .,0,0,0.95204353,0.92752814,baseline,positive,positive,1,ok
+"Finnish Metso Paper has been awarded a contract for the rebuild of Sabah Forest Industries ' ( SFI ) pulp mill in Sabah , Malaysia .",0,0,0.94360065,0.9047489,baseline,positive,positive,1,ok
+The enterprise value of Maritim Food AS has been determined as approximately EUR15m .,2,2,0.9418259,0.8964837,baseline,neutral,neutral,1,ok
+"The fair value of the property portfolio doubled as a result of the Kapiteeli acquisition and totalled EUR 2,686.2 1,259.7 million .",0,0,0.9245228,0.85954195,baseline,positive,positive,1,ok
+"Operating profit , excluding non-recurring items , totaled EUR 0.2 mn , down from EUR 0.8 mn in the corresponding period in 2006 .",1,1,0.9766068,0.96278155,baseline,negative,negative,1,ok
+"In Q1 of 2009 , the company 's operating loss totalled EUR 0.3 mn , compared to a profit of EUR 3.6 mn in Q1 of 2008 .",1,1,0.97590774,0.96301466,baseline,negative,negative,1,ok
+"The final price will be specified by 14 May 2010 , the acquiring company said .",2,2,0.9427544,0.89825225,baseline,neutral,neutral,1,ok
+"Established in 1989 , CapMan manages Nordic buyout , mezzanine , technology , life science and real estate funds with approximately EURO 3 billion $ 4 billion in total capital .",2,2,0.93943083,0.89210594,baseline,neutral,neutral,1,ok
+Finnish communication electronics components supplier Scanfil Oyj Tuesday said sales in the first half of 2006 will be 15 % lower than during the same period a year ago .,1,1,0.9722768,0.9527453,baseline,negative,negative,1,ok
+"The new majority owners of Aspocomp Thailand Co. , Ltd are certain private persons belonging to immediate circle of Aspocomp 's present Joint Venture partner , Saha Pathana Inter-Holding Plc. .",2,2,0.9581547,0.93534756,baseline,neutral,neutral,1,ok
+"Satama 's net profit for the third quarter of 2007 rose to 275,000 euro ( $ 395,000 ) from 270,000 euro ( $ 388,000 ) for the same period of 2006 .",0,0,0.9527983,0.9262838,baseline,positive,positive,1,ok
+Panostaja Oyj 's Board also decided at its organisational meeting held upon completion of the AGM to implement the AGM decision concerning Board member fees paid as shares in such a way that shares are transferred on a quarterly basis on th,2,2,0.9405937,0.902347,baseline,neutral,neutral,1,ok
+Stora Enso 's third-quarter pre-tax profit doubled to EUR 197mn .,0,0,0.9564406,0.93324804,baseline,positive,positive,1,ok
+"Finnish Suominen Corporation that makes wipes , nonwovens , and flexible packaging , expects changes in the market situation to reduce sales of Suominen 's nonwovens and wet wipes from the previously estimated volumes .",1,1,0.9655091,0.94413775,baseline,negative,negative,1,ok
+Cash flow from operations in January-December 2008 was a negative EUR 18.1 mn compared to EUR 39.0 mn in the corresponding period in 2007 .,1,1,0.9746688,0.9601746,baseline,negative,negative,1,ok
+They both will report to Oriola-KD 's chief executive officer Eero Hautaniemi .,2,2,0.94905555,0.9193294,baseline,neutral,neutral,1,ok
+"In July-September 2009 , Konecranes ' sales decreased to EUR 368.7 mn from EUR 520.4 mn in July-September 2008 .",1,1,0.97516906,0.9596439,baseline,negative,negative,1,ok
+"SRV will also build an aqua park with wellness area , a restaurant and a multifunctional ice arena .",2,2,0.6637926,0.3356646,baseline,neutral,neutral,1,ok
+"Established in 1987 , the SRV Group is a private Finnish construction concern with operations in Finland , the Baltic countries and Russia .",2,2,0.94453746,0.90375847,baseline,neutral,neutral,1,ok
+"Helsinki 19 May 2010 - Finnish company Lemminkainen Oyj ( HEL : LEM1S ) said today that it will construct an office building at Toolonlahti in downtown Helsinki , without disclosing financial details .",2,2,0.9335439,0.88113195,baseline,neutral,neutral,1,ok
+"Finnair 's passenger load factor , which measures the number of sold seats as a share of all available seats , dropped by 1.3 percentage points to 76.7 % in September .",1,1,0.9759788,0.95949745,baseline,negative,negative,1,ok
+"The company 's plant in Russia will continue to make tyres for its near markets , while the plant in Nokia in Finland will manufacture tyres for other markets .",2,2,0.86162686,0.7318423,baseline,neutral,neutral,1,ok
+Net sales have been eaten by the weak US dollar .,1,1,0.97389764,0.9554607,baseline,negative,negative,1,ok
+Productional situation has now improved .,0,0,0.9586609,0.93431944,baseline,positive,positive,1,ok
+Suomen Paikallissanomat Oy is part of Alma Media Group and it currently publishes 15 local newspapers across Finland .,2,2,0.9439314,0.90774846,baseline,neutral,neutral,1,ok
+The energy shot is packed in a 100-millilitre bag with a screw cap .,2,2,0.9426046,0.90488774,baseline,neutral,neutral,1,ok
+Cargotec will also move Hallberg-Ivarsson 's service and installation business under the same roof with its service center for Kalmar and MacGregor solutions in Gothenburg .,2,2,0.8696898,0.7489524,baseline,neutral,neutral,1,ok
+"The value of the order is EUR 700,000 .",2,2,0.9320377,0.8759207,baseline,neutral,neutral,1,ok
+"Stockholm-based Nordea Bank ( STO : NDA ) said yesterday it had hired Casper von Koskull to lead its corporate merchant banking and capital markets unit , effective 1 September .",2,2,0.92545855,0.87203956,baseline,neutral,neutral,1,ok
+Return on capital employed rose by 4.8 percentage points to 19.6 % .,0,0,0.9538677,0.92845917,baseline,positive,positive,1,ok
+The company says the measures are no longer needed .,2,2,0.6902969,0.41510215,baseline,neutral,neutral,1,ok
+Earnings per share EPS in 2005 decreased to EUR0 .66 from EUR1 .15 in 2004 .,1,1,0.97526544,0.9573849,baseline,negative,negative,1,ok
+"Finnish Exel Composites , a technology company that designs , manufactures , and markets composite profiles and tubes for various industrial applications , reports its net sales decreased by 0.6 % in the second quarter of 2010 to EUR 19.2 m",1,1,0.9756988,0.95954585,baseline,negative,negative,1,ok
+Kone shares dropped 4.1 percent to  x20ac 43 US$ 55.77 in Helsinki .,1,1,0.971374,0.94878525,baseline,negative,negative,1,ok
+The trade is in accordance with the agreement announced on 26 March 2008 .,2,2,0.9142556,0.8400236,baseline,neutral,neutral,1,ok
+"It operates under three distinct brands : United Supermarkets , Market Street and United Supermercado .",2,2,0.95265496,0.9263194,baseline,neutral,neutral,1,ok
+The total capacity of the factory will be approximately 100 engines a year .,2,2,0.8800709,0.7692594,baseline,neutral,neutral,1,ok
+SRV lowered its net sales estimate for the whole of 2008 due to uncertainties in housing sales .,1,1,0.97109354,0.9499924,baseline,negative,negative,1,ok
+The maximum number of new shares to be offered is 22 million .,2,2,0.9532604,0.92223406,baseline,neutral,neutral,1,ok
+"Cooper SH , the UK distributor for lift equipment manufacturer Konecranes , won the five-year deal which involves low maintenance and fuel saving technologies .",0,0,0.8789884,0.76589996,baseline,positive,positive,1,ok
+GyPSii service supports ten different languages including Korean and Russian .,2,2,0.9359482,0.88398933,baseline,neutral,neutral,1,ok
+No changes in media activity were seen in October compared with September .,2,1,0.69428873,0.41885474,baseline,neutral,negative,0,misclassification
+"The mall will be financed on a parity basis by Pearl Plaza LLC , the joint venture company established by the Chinese investor Shanghai Industrial Investment Holdings Co Ltd , and SRV Group .",2,2,0.85345656,0.71451163,baseline,neutral,neutral,1,ok
+VNH generates annual net sales of about 5 mln eur and employs 21 people .,2,2,0.9459455,0.9085884,baseline,neutral,neutral,1,ok
+The company has some 410 employees and an annual turnover of EUR65 .4 m. Vaahto Group is listed on the Nordic Exchange in Helsinki .,2,2,0.94874746,0.9210717,baseline,neutral,neutral,1,ok
+"In April-June 2008 , Scanfil 's net sales totalled EUR 58.7 mn and operating profit EUR 6.6 mn .",2,2,0.90866566,0.84261835,baseline,neutral,neutral,1,ok
+"Goodwill and other intangible assets account for some 2.0 mln euro ( $ 2.6 mln ) of the purchase price , 20 pct of which payable in Aspo shares .",2,2,0.943364,0.90515107,baseline,neutral,neutral,1,ok
+"London 's leading shares today jumped almost 100 points , or 1.7 % , as the market opened .",0,0,0.9296153,0.8768843,baseline,positive,positive,1,ok
+"Comparable operating profit totaled EUR 4.7 mn , down from EUR 5.1 mn in the corresponding period in 2005 , representing 7.4 % of net sales .",1,1,0.9767641,0.9622326,baseline,negative,negative,1,ok
+"Following the registration , the number of issued and outstanding shares of Basware is 12,890,829 .",2,2,0.9528679,0.92581,baseline,neutral,neutral,1,ok
+The transaction is expected to be completed next spring .,2,2,0.92965776,0.8717864,baseline,neutral,neutral,1,ok
+"In the sinter plant , limestone and coke breeze are mixed with the iron ore concentrate and sintered into lump form or sinter for use in the blast furnaces as a raw material for iron-making .",2,2,0.94377434,0.91201544,baseline,neutral,neutral,1,ok
+The operating margin of Aker Yards Cruise & Ferries division went down from 8.3 % to 6.4 % in the first quarter of 2007 .,1,1,0.97570646,0.95810187,baseline,negative,negative,1,ok
+Almost the entire office building will be occupied by Metso .,2,2,0.95795655,0.93119,baseline,neutral,neutral,1,ok
+Pharmaceutical market in Belgium Global Research & Data Services published recently a market analysis about the pharmaceutical markets in Belgium .,2,2,0.9336706,0.8831771,baseline,neutral,neutral,1,ok
+"Finnish power supply solutions and systems provider Efore Oyj said its net loss widened to 3.2 mln euro $ 4.2 mln for the first quarter of fiscal 2006-2007 ending October 31 , 2007 from 900,000 euro $ 1.2 mln for the same period of fiscal 2",1,0,0.93439037,0.8886413,baseline,negative,positive,0,misclassification
+Another noticeable thing is that the search for Tata and Airtel brands was mostly related to ` broadband connections ' .,2,2,0.87909526,0.80659366,baseline,neutral,neutral,1,ok
+The expanded plant is scheduled to be operational by the middle of October 2009 .,2,2,0.79060435,0.5909035,baseline,neutral,neutral,1,ok
+"Seven-month sales of Ragutis , which is controlled by the Finnish brewery Olvi , declined by 11.2 percent , to 15.41 million liters , and the company held 9.89 percent of the market .",1,1,0.9740538,0.9543513,baseline,negative,negative,1,ok
+"Svyturys-Utenos Alus , which is controlled by the Nordic group Baltic Beverages Holding ( BBH ) , posted a 4.7-per-cent growth in beer sales for January-May to 46.22 million litres .",0,0,0.95238835,0.92445236,baseline,positive,positive,1,ok
+The company also said that in Poland a profitability program has been launched at the Oborniki steel frame and sandwich panel plant .,0,0,0.8933432,0.793552,baseline,positive,positive,1,ok
+Finnish media group Talentum has issued a profit warning .,1,1,0.9647683,0.93706095,baseline,negative,negative,1,ok
+"Protalix closed at $ 10.71 on Friday on the American Stock Exchange , giving a market cap of $ 827 million .",2,2,0.8360201,0.6882774,baseline,neutral,neutral,1,ok
+"BAVARIA Industriekapital AG 's 2006 revenues were EUR 333 million , with an EBITDA of EUR 51 million .",2,2,0.9375928,0.8938122,baseline,neutral,neutral,1,ok
+"Following the registration , the share capital of Biotie is EUR 52,556,678.10 .",2,2,0.95143044,0.919972,baseline,neutral,neutral,1,ok
+The sellers were EOSS Innovationsmanagement and a group of private individuals .,2,2,0.94967926,0.923319,baseline,neutral,neutral,1,ok
+This resulted in improved sales figures in Sweden .,0,0,0.9570392,0.9301331,baseline,positive,positive,1,ok
+"4 February 2011 - Finnish broadband data communication systems provider Teleste Oyj HEL : TLT1V said Wednesday its net profit rocketed to EUR4 .8 m in 2010 from EUR416 ,000 in 2009 and it lifted its dividend proposal .",0,0,0.93938935,0.903951,baseline,positive,positive,1,ok
+The total capital of funds managed by the bank decreased by 28 % to EUR 284mn by the end of September 2008 .,1,1,0.97378224,0.955286,baseline,negative,negative,1,ok
+The soapstone deposits in the Medvezhyegorsk area are expected to increase Tulikivi 's current reserves considerably .,0,0,0.9523037,0.9202606,baseline,positive,positive,1,ok
+The company moved to an operating profit of EUR10 .9 m versus an operating loss of EUR15 .3 m. It also turned to EPS of EUR0 .08 versus loss per share of EUR0 .04 .,0,0,0.93915284,0.90377724,baseline,positive,positive,1,ok
+Earnings per share EPS amounted to EUR0 .01 .,2,2,0.9109905,0.84488404,baseline,neutral,neutral,1,ok
+The Elcoteq group recently announced that the last three months of the previous year brought to it a major loss of more than half a billion kroons ( EUR 32 mln ) for the fifth quarter running .,1,1,0.9691149,0.9510472,baseline,negative,negative,1,ok
+Work on the assignment has already started and is due for completion in spring 2011 .,2,2,0.8749753,0.7648202,baseline,neutral,neutral,1,ok
+The value of the contracts is about EUR 3.3 mn .,2,2,0.94341826,0.90947783,baseline,neutral,neutral,1,ok
+Net sales fell by 33 % from the third quarter of 2008 to EUR 130.5 mn .,1,1,0.9764089,0.95981735,baseline,negative,negative,1,ok
+"The company 's net profit rose 11.4 % on the year to 82.2 million euros in 2005 on sales of 686.5 million euros , 13.8 % up on the year , the company said earlier .",0,0,0.95857054,0.9365239,baseline,positive,positive,1,ok
+"The company 's board of directors will propose a dividend of EUR 0.95 per share for 2008 at the annual general meeting , scheduled to be held on March 23 , 2009 .",2,2,0.9303644,0.8758848,baseline,neutral,neutral,1,ok
+"He joins Technopolis from KONE where he has held various positions within the Group , most recently as Director of Service Business and Business Development for KONE s Middle Eastern operations .",2,2,0.92646194,0.8670774,baseline,neutral,neutral,1,ok
+"LCS 's services cover the whole life cycle of software and information systems , from process modelling and tailored software development , to hosting services , solution management , maintenance and support .",2,2,0.95110714,0.92072314,baseline,neutral,neutral,1,ok
+"The portfolio comprises of 118,000 m2 of leasable space with a vacancy rate of roughly 5 % , let to around 140 tenants of which two of the largest are the Swedish government and Ericsson .",2,2,0.94633406,0.9129795,baseline,neutral,neutral,1,ok
+Operating profit fell to EUR 38.1 mn from EUR 55.3 mn in 2007 .,1,1,0.9765217,0.96066296,baseline,negative,negative,1,ok
+"Ruukki 's delivery includes steel structures , including installation , for Krakeroy bascule bridge and steel piles for the bridge foundations .",2,2,0.89919525,0.8086354,baseline,neutral,neutral,1,ok
+UPM-Kymmene said its has ` not indicated any interest in any domestic consolidations ' .,2,2,0.9155957,0.8509727,baseline,neutral,neutral,1,ok
+"Profit for the period totalled EUR 0.8 mn , down from EUR 1.1 mn in the corresponding period in 2008 .",1,1,0.9762541,0.96253496,baseline,negative,negative,1,ok
+"BasWare Invoice Processing , BasWare Contract Matching , BasWare Order Matching and BasWare KPI Reporting Tool are part of the BasWare 's Enterprise Purchase to Pay product suite .",2,2,0.94164896,0.90268904,baseline,neutral,neutral,1,ok
+"Panostaja owns a 68.77 pct of share capital and the voting rights of Suomen Helasto shares following an exchange of shares which was carried out on May 30 , 2007 .",2,2,0.9214492,0.8528542,baseline,neutral,neutral,1,ok
+Closing of such transaction took place today .,2,2,0.94832724,0.9152028,baseline,neutral,neutral,1,ok
+Finnish Cargotec 's Kalmar has received a significant order from the US Department of Defense .,0,0,0.9520084,0.92245144,baseline,positive,positive,1,ok
+Delivery is expected to take place later this month .,2,2,0.94692254,0.9100378,baseline,neutral,neutral,1,ok
+"The number of class A shares remains unchanged at 9,526,089 shares .",2,2,0.9182871,0.86917114,baseline,neutral,neutral,1,ok
+Technopolis has approximately 130 customer companies in Jyvaskyla .,2,2,0.9325788,0.8778195,baseline,neutral,neutral,1,ok
+Cargotec Germany GmbH has been awarded a contract by Stadtverwaltung Mainz for chassis bodies under Open procedure .,0,0,0.9395395,0.891205,baseline,positive,positive,1,ok
+"( ADP News ) - Dec 11 , 2008 - Finnish construction and engineering company Outotec Oyj ( OMX : OTE1V ) said today it won a EUR 28 million ( USD 36.8 m ) order to expand the phosphate concentrator in Siilinjarvi of Norwegian minera",0,0,0.9442526,0.9038421,baseline,positive,positive,1,ok
+Profit for the period increased from EUR 2.9 mn to EUR 10.5 mn .,0,0,0.95526063,0.93060666,baseline,positive,positive,1,ok
+"Tyrvaan Sanomat , published twice a week by Tyrvaan Sanomat Oy , appears in Sastamala and Kiikoinen .",2,2,0.89377123,0.8068546,baseline,neutral,neutral,1,ok
+The terms and conditions of the year 2003 stock option scheme were published in a stock exchange release on 31 March 2003 .,2,2,0.9552503,0.93214965,baseline,neutral,neutral,1,ok
+More than 80 special events in the three counties during four months were hosted by the library system and its nine branch libraries .,2,2,0.93186206,0.8825114,baseline,neutral,neutral,1,ok
+10 February 2011 - Finnish media company Sanoma Oyj HEL : SAA1V said yesterday its 2010 net profit almost tripled to EUR297 .3 m from EUR107 .1 m for 2009 and announced a proposal for a raised payout .,0,0,0.94189763,0.9124586,baseline,positive,positive,1,ok
+"In January-September 2007 , the group 's net sales from continuing operations rose to EUR 213.1 mn from EUR 172.6 mn in the corresponding period in 2006 .",0,0,0.94738656,0.9180597,baseline,positive,positive,1,ok
+Completion of the transaction is subject to a final agreement and a Due Diligence process .,2,2,0.93787676,0.8945336,baseline,neutral,neutral,1,ok
+Viking Line manages well with its current ferries .,0,0,0.9432084,0.89674896,baseline,positive,positive,1,ok
+"Motorola Inc. of the United States came second with shipments of 217.4 million units for a 21.3 percent market share , followed by South Korea 's Samsung Electronics Co. with shipments of 118.0 million units for an 11.6 percent share .",2,2,0.6373889,0.31977662,baseline,neutral,neutral,1,ok
+The Extraordinary General Meeting is expected to take place no later than 18 February 2011 .,2,2,0.94946903,0.91758007,baseline,neutral,neutral,1,ok
+Stichting Pensioenfonds ABP : 4 118 122 shares representing 5.19 % of the share capital and voting rights .,2,2,0.9452135,0.9031279,baseline,neutral,neutral,1,ok
+The order also includes start-up and commissioning services .,2,2,0.91805637,0.8461553,baseline,neutral,neutral,1,ok
+"The objective is that trading in the shares will commence on May 2 , 2007 .",2,2,0.95096123,0.91490257,baseline,neutral,neutral,1,ok
+"The figure includes the change in the fair value of the property portfolio , EUR 26.2 million .",2,2,0.9132,0.8681475,baseline,neutral,neutral,1,ok
+The net sales of Healthcare Trade business in 2009 were EUR 145.1 million EUR 155.2 million and operating profit EUR 8.9 million EUR 7.9 million .,2,2,0.92286557,0.8840561,baseline,neutral,neutral,1,ok
+These moderate but significant changes resulted in a significant 24-32 % reduction in the estimated CVD risk .,0,0,0.9509332,0.92497635,baseline,positive,positive,1,ok
+"Finnish lifting equipment maker Kone Oyj said on October 4 , 2007 it won an order worth 15 mln euro $ 21.2 mln to deliver a total of 53 custom designed elevators to Norwegian shipbuilder Aker Yards ASA .",0,0,0.93003917,0.87274885,baseline,positive,positive,1,ok
+"Den Bosch-based TomTom is Europe 's largest maker of automotive navigation devices , while Cayman Islands-based Garmin is larger in the U.S. and overall .",2,2,0.8704505,0.752381,baseline,neutral,neutral,1,ok
+"OTHER  North-Rhine Westphalia - Is to issue a benchmark , 5 year fixed rate deal in Euros .",2,2,0.7782953,0.5654948,baseline,neutral,neutral,1,ok
+"Poyry is a global consulting and engineering firm focusing on the energy , forest industry and infrastructure & environment sectors .",2,2,0.92970026,0.87289387,baseline,neutral,neutral,1,ok
+It estimates the operating profit to further improve from the third quarter .,0,0,0.95654416,0.9335545,baseline,positive,positive,1,ok
+"EPS for the quarter came in at 0.36 eur , up from 0.33 eur a year ago and ahead of forecast of 0.33 eur .",0,0,0.9525003,0.92680204,baseline,positive,positive,1,ok
+"Operating profit totaled EUR 6.7 mn , down from EUR 7.2 mn in the corresponding period in 2005 .",1,1,0.9770231,0.9628271,baseline,negative,negative,1,ok
+"In a letter to Economic Affairs Minister , the listed Estonian shipping company Tallink asks for the approval to be entitled to a 15 % cut in port fees in 2010 .",2,0,0.80710083,0.7060371,baseline,neutral,positive,0,misclassification
+"The decision reflects the underutilisation of the line , which produces nonwovens used in medical and wipes applications as well as for the automotive industry .",2,2,0.9056132,0.8359998,baseline,neutral,neutral,1,ok
+It was decided that the auditors are reimbursed according to invoice .,2,2,0.94294196,0.9036301,baseline,neutral,neutral,1,ok
+The annual net sales of the unit is some EUR 5 million and it currently employs some 55 people .,2,2,0.9427026,0.90837306,baseline,neutral,neutral,1,ok
+"Changes being announced today will be effective after the close of trading on Friday , June 19 , 2009 .",2,2,0.94535726,0.91038585,baseline,neutral,neutral,1,ok
+( A spokesperson told WWD to expect a 50-50 mix of clothing and home decor . ),2,2,0.9110314,0.8337282,baseline,neutral,neutral,1,ok
+"The 2500-passenger ferry will have dimensions of 185 m length overall , 170 m length between perpendiculars , 27.70 m breadth and 6.55 m design draught .",2,2,0.93293715,0.8817628,baseline,neutral,neutral,1,ok
+"The brokerage said 2006 has seen a ` true turning point ' in European steel base prices , with better pricing seen carrying through the second quarter of 2006 .",0,0,0.9551773,0.93078864,baseline,positive,positive,1,ok
+"Payment for acquired shares will be made in cash , and the price per share will be EUR 1 plus an administration fee .",2,2,0.95589656,0.9267906,baseline,neutral,neutral,1,ok
+"Swedish , Finnish and Danish listed companies are organized in three market cap segments , Nordic Large Cap , Mid Cap and Small Cap .",2,2,0.9502731,0.9232457,baseline,neutral,neutral,1,ok
+Operating profit for continuing operations fell to EUR 48.3 mn from EUR 72.4 mn in the first half of 2007 .,1,1,0.97661495,0.961279,baseline,negative,negative,1,ok
+Operating profit fell to EUR 15.1 mn from EUR 24.6 mn in 2006 .,1,1,0.9765622,0.96070194,baseline,negative,negative,1,ok
+Marathon estimates the value of its remaining stake in Protalix at $ 27 million .,2,2,0.95131075,0.922569,baseline,neutral,neutral,1,ok
+"In the Czech Republic , the smaller profiling unit at Ostrava will be closed and the machinery will be gradually relocated to Ruukki 's bigger plants in Hungary , Poland and Romania by the end of the first quarter of 2009 .",2,2,0.8877341,0.79755235,baseline,neutral,neutral,1,ok
+"Samsung currently occupies third place and lost ground during the quarter , dropping by 1.8 % to an 11.1 % share overall .",1,1,0.9756353,0.9579503,baseline,negative,negative,1,ok
+"Operating profit surged to EUR21m from EUR106 ,000 .",0,0,0.9529812,0.9276873,baseline,positive,positive,1,ok
+"The company serves customers in various industries , including process and resources , industrial machinery , architecture , building , construction , electrical , transportation , electronics , chemical , petrochemical , energy , and infor",2,2,0.9448537,0.90732795,baseline,neutral,neutral,1,ok
+The idea of saving electricity in data transfer is still a new one .,2,2,0.890014,0.7947585,baseline,neutral,neutral,1,ok
+"The new Kroksberg railway tunnel will be built on a new section of track between Harnosand and Veda , forming part of the line that follows the coast of the Gulf of Bothnia .",2,2,0.78790486,0.5839269,baseline,neutral,neutral,1,ok
+"Group EBIT for the first half was EUR13 .6 m US$ 17.8 m , falling short of the EUR22 .5 m it posted for the same period of 2009 .",1,1,0.97197443,0.9561911,baseline,negative,negative,1,ok
+"Financial Statements include the consolidated financial statements of the Group , the Board of Directors ' Report , the Auditors ' Report and the Corporate Governance Statement .",2,2,0.9458364,0.9110019,baseline,neutral,neutral,1,ok
+Net sales of the Vegetable Oil Business rose to EUR 10.6 mn from EUR 10.1 mn .,0,0,0.95273376,0.92882615,baseline,positive,positive,1,ok
+"For example , net sales increased by 5.9 % from the first quarter , and EBITDA increased from a negative EUR 0.2 mn in the first quarter of 2009 .",0,0,0.9576825,0.9349289,baseline,positive,positive,1,ok
+"For 2009 , net profit was EUR3m and the company paid a dividend of EUR1 .30 apiece .",2,2,0.9440949,0.9120408,baseline,neutral,neutral,1,ok
+"For the first nine months of 2010 , the company 's net profit rose to EUR41m from EUR30m for the corresponding period of 2009 .",0,0,0.9487901,0.92314744,baseline,positive,positive,1,ok
+Biohit already services many current Genesis customers and the customer base is expected to expand as a result of this agreement .,0,0,0.932396,0.8748843,baseline,positive,positive,1,ok
+`` We could be there .,2,2,0.8687193,0.75492245,baseline,neutral,neutral,1,ok
+"They can be used to control the speed of electric motors used by industry and municipal engineering , and in power generation using renewable energy .",2,2,0.9322174,0.87823904,baseline,neutral,neutral,1,ok
+"Operating profit totalled EUR 21.1 mn , up from EUR 18.6 mn in 2007 , representing 9.7 % of net sales .",0,0,0.95502484,0.9281674,baseline,positive,positive,1,ok
+A merger between UPM and Finnish-Swedish Stora Enso is not likely either .,2,2,0.9306314,0.8948167,baseline,neutral,neutral,1,ok
+After 1 April 2007 Cencorp will not have any own employees in the territory .,2,2,0.9403275,0.8982586,baseline,neutral,neutral,1,ok
+"India 's trade with Russia currently stands at four billion dollars , growing 9.6 per cent in fiscal 2007 .",0,0,0.8530509,0.717376,baseline,positive,positive,1,ok
+"In the second quarter of 2010 , the group 's pretax loss narrowed to EUR 400,000 from EUR 600,000 .",0,0,0.92596895,0.87241447,baseline,positive,positive,1,ok
+"Fiskars , a 360-year-old global business best known for its orange-handled scissors , expects to derive synergies of EUR5 million a year by consolidating certain parts of the housewares division where the two compete .",0,0,0.6864585,0.38046125,baseline,positive,positive,1,ok
+All depends on financing .,2,2,0.9202245,0.8580351,baseline,neutral,neutral,1,ok
+"Products include Consumer Electronics devices such as mobile phones and their accessories , set-top boxes , flat panel TVs as well as System Solutions products such as infrastructure systems , modules and other industrial segment products .",2,2,0.9441002,0.9059359,baseline,neutral,neutral,1,ok
+The total amount of subscription prices was recorded in the fund for invested non-restricted equity .,2,2,0.9515122,0.92701334,baseline,neutral,neutral,1,ok
+No other ev3 devices were involved in this action .,2,2,0.9431573,0.91308236,baseline,neutral,neutral,1,ok
+"The earnings per share for the quarter came in at 0.25 eur , up from the 0.20 eur of the same quarter a year earlier .",0,0,0.9546622,0.9307622,baseline,positive,positive,1,ok
+Increase in the number of shares is based on the option rights which were granted to the management of the company under the stock option plan 2006 .,2,2,0.90971977,0.82839686,baseline,neutral,neutral,1,ok
+The building will house product development and test laboratories .,2,2,0.9079627,0.82488215,baseline,neutral,neutral,1,ok
+The medium-term operative targets of the company remain unchanged .,2,2,0.88919795,0.7974298,baseline,neutral,neutral,1,ok
+"Marathon now has a 4.6 percent stake in PLX , it said , according to Bloomberg .",2,2,0.93668425,0.885369,baseline,neutral,neutral,1,ok
+"The decision will have to be made whether the group agrees to the import of Estonian meat and meat products to Finland , the paper added .",2,2,0.89055616,0.8034927,baseline,neutral,neutral,1,ok
+"Since the registration of the shares subscribed in a directed share issue , the new number of Panostaja shares and voting rights is 41,733,110 .",2,2,0.9454675,0.90514547,baseline,neutral,neutral,1,ok
+Profit after taxes totaled EUR 12.1 mn .,2,2,0.91355646,0.8683262,baseline,neutral,neutral,1,ok
+"Finnair PLC carried a record 8.8 million passengers in 2006 , an increase of 3.5 percent on the previous year , the Finnish national carrier reported Tuesday .",0,0,0.9511358,0.92295337,baseline,positive,positive,1,ok
+The company operates power plants in the Tyumen and Chelyabinsk regions and in the Khanty-Mansi Autonomous District .,2,2,0.9423649,0.9007888,baseline,neutral,neutral,1,ok
+"Altogether CapMan employs approximately 150 people in Helsinki , Stockholm , Copenhagen , Oslo , Moscow and Luxembourg .",2,2,0.9472614,0.91223055,baseline,neutral,neutral,1,ok
+"An  of the invention , released by the Patent Office , said : `` The chambers are pressurized .",2,2,0.9365757,0.89596003,baseline,neutral,neutral,1,ok
+"Operating profit of Kauppalehti group rose to EUR 1.5 mn from EUR 1.3 mn , and that of Marketplaces to EUR 1.3 mn from EUR 1.0 mn in the third quarter of 2006 .",0,0,0.9505663,0.9226651,baseline,positive,positive,1,ok
+The sale price was not disclosed .,2,2,0.9512167,0.92541176,baseline,neutral,neutral,1,ok
+The beers differ slightly from mainstream beers .,2,2,0.9048614,0.83358055,baseline,neutral,neutral,1,ok
+"Tecnomen , headquartered in Espoo , Finland , develops messaging and charging solutions for telecomms operators and service providers worldwide .",2,2,0.91868687,0.84885323,baseline,neutral,neutral,1,ok
+The site will cover over six hectares .,2,2,0.92796636,0.8668156,baseline,neutral,neutral,1,ok
+"4 February 2011 - Finnish broadband data communication systems provider Teleste Oyj HEL : TLT1V saw its net profit jump to EUR2 .1 m for the last quarter of 2010 from EUR995 ,000 for the same period of 2009 .",0,0,0.94521904,0.91307664,baseline,positive,positive,1,ok
+"Viking Line 's cargo revenue increased by 5.4 % to EUR 21.46 mn , and cargo volume increased by 2.4 % to 70,116 cargo units .",0,0,0.95676386,0.9308719,baseline,positive,positive,1,ok
+The company did not distribute a dividend in 2005 .,2,2,0.9410908,0.90385276,baseline,neutral,neutral,1,ok
+"With five different game modes , co-op tournaments , 4 player split-screen and multiplayer modes , players can have as much fun as they would if they were actually fishing .",2,2,0.931253,0.88082963,baseline,neutral,neutral,1,ok
+"Both operating profit and net sales for the six-month period increased , respectively from EUR7 .5 m and EUR655 .5 m , as compared to the corresponding period in 2005 .",0,0,0.9581965,0.93592966,baseline,positive,positive,1,ok
+Finnish silicon wafer technology company Okmetic Oyj OMX Helsinki : OKM1V said on Wednesday 17 September that it will invest EUR6m in its sensor wafer business during 2009 .,2,2,0.880248,0.7692036,baseline,neutral,neutral,1,ok
+"Operating loss totalled EUR 4.0 mn , compared to a profit of EUR 8.6 mn in the second quarter of 2008 .",1,1,0.9772701,0.96387815,baseline,negative,negative,1,ok
+"During the rally , which was authorized by the city administration , a consulate official came out to the workers , spoke to them and took a letter from them .",2,2,0.7852835,0.6700311,baseline,neutral,neutral,1,ok
+The invention carries International Patent Publication No. .,2,2,0.94314617,0.90757376,baseline,neutral,neutral,1,ok
+"A coker crane will be supplied to Tesoro Corporation 's Golden Eagle Refinery in Martinez , California , while a similar crane will be delivered to BP 's Castell refinery in Spain .",2,2,0.89089227,0.79265493,baseline,neutral,neutral,1,ok
+Production capacity will increase from 36 000 to 85 000 tonnes per year and the raw material will continue to be recycled paper and board .,0,0,0.9102773,0.82944936,baseline,positive,positive,1,ok
+The original patent was filed in Finland under application No. .,2,2,0.9478356,0.9144566,baseline,neutral,neutral,1,ok
+Operating profit rose to EUR 26.7 mn from EUR 14.9 mn in the corresponding period in 2006 .,0,0,0.9508541,0.92333,baseline,positive,positive,1,ok
+Affecto expects its net sales for the whole 2010 to increase from the 2009 level when they reached EUR 103 million .,0,0,0.9527637,0.9259821,baseline,positive,positive,1,ok
+"Lemminkainen Infra Oy 's subsidiary Lemminkainen Sverige AB will perform the construction work , which is expected to start in early 2011 and to be completed in the summer of 2013 .",2,2,0.8926652,0.7989017,baseline,neutral,neutral,1,ok
+ABN : 59 087 901 620 now represent 5.10 % of the voting rights and share capital of Citycon Oyj .,2,2,0.9309759,0.872833,baseline,neutral,neutral,1,ok
+"Sales in Finland decreased by 2.0 % , and international sales decreased by 9.3 % in terms of euros , and by 15.1 % in terms of local currencies .",1,1,0.97312784,0.9547107,baseline,negative,negative,1,ok
+"In 2007 Talentum will disclose three Interim Reports - Q1 ( January - March ) on Friday , 27 April , 2007 - Q2 ( April - June ) on Friday , 20 July , 2007 - Q3 ( July - September ) on Friday , 26 October , 2007 .",2,2,0.95125115,0.92167944,baseline,neutral,neutral,1,ok
+Last year 's net sales rose to EUR 68.3 million from EUR 62.2 million .,0,0,0.9495242,0.9226275,baseline,positive,positive,1,ok
+"In January-June 2010 , diluted loss per share stood at EUR0 .3 versus EUR0 .1 in the first half of 2009 .",1,1,0.9458432,0.9053058,baseline,negative,negative,1,ok
+"The devices would be launched in the Chinese market in late 2006 , the company said .",2,2,0.8983525,0.8056129,baseline,neutral,neutral,1,ok
+"RFID ( Radio Frequency Identification ) is a method of so-called intelligent transport , whereby information can be read and saved remotely .",2,2,0.9412364,0.90713125,baseline,neutral,neutral,1,ok
+"These sections will be put into place to form the load-bearing steel structure of the bridge , '' says Sami Eronen , Senior Vice President , Infrastructure and Northern Europe , Ruukki Construction .",2,2,0.8581561,0.726405,baseline,neutral,neutral,1,ok
+The value of the deal was not disclosed .,2,2,0.9523732,0.9283944,baseline,neutral,neutral,1,ok
+Saunalahti is a part of the Elisa group .,2,2,0.94396096,0.9022504,baseline,neutral,neutral,1,ok
+The financial statements release will be available after publishing on the Company 's internet pages at www.cargotec.com .,2,2,0.9568721,0.9338478,baseline,neutral,neutral,1,ok
+The company did not disclose the price of the acquisition .,2,2,0.9506288,0.92553836,baseline,neutral,neutral,1,ok
+"Following this increase Huhtamaki 's registered share capital is EUR360 .62 m and the number of shares outstanding is 106,063,320 .",2,2,0.8520931,0.71212447,baseline,neutral,neutral,1,ok
+"Prior to the transaction , whose financial terms have not been disclosed , Alma Media owned 40 % of Kotikokki net .",2,2,0.9525972,0.9257847,baseline,neutral,neutral,1,ok
+Operating loss amounted to EUR 0.9 mn in the first half of 2006 compared to a profit of EUR 0.5 mn in the first half of 2005 .,1,1,0.97514194,0.9623179,baseline,negative,negative,1,ok
+"The order also covers design services , hardware , software licences , as well as maintenance services over six years .",2,2,0.9387899,0.8896241,baseline,neutral,neutral,1,ok
+The machinery now ordered will be placed in a new mill with an annual production capacity of 40 000 m3 of overlaid birch plywood .,2,2,0.84292066,0.6940955,baseline,neutral,neutral,1,ok
+Valga Lihatoostus markets its products under the Maks & Moorits trademark .,2,2,0.95220804,0.92801416,baseline,neutral,neutral,1,ok
+"These financing arrangements will enable the company to ensure , in line with its treasury policy , that it has sufficient financial instruments at its disposal for its potential capital requirements .",0,0,0.8793,0.768393,baseline,positive,positive,1,ok
+"The firm 's UK head office is in Rugby Road , Lutterworth .",2,2,0.94656384,0.91920674,baseline,neutral,neutral,1,ok
+"In the fourth quarter of 2008 , net sales decreased to EUR 121.4 mn from EUR 165.5 mn in the fourth quarter of 2007 .",1,1,0.97570634,0.95980674,baseline,negative,negative,1,ok
+"The record date for dividend distribution is March 14 , 2008 .",2,2,0.94471073,0.90731734,baseline,neutral,neutral,1,ok
+"Fortum expects its annual capital expenditure in the next four to five years to be within a range of EUR 0.8-1 .2 billion , as earlier announced .",2,0,0.8006339,0.6102755,baseline,neutral,positive,0,misclassification
+"Neste Oil will publish its third quarter 2008 results on Friday , 24 October 2008 at approximately 9 am ( EET ) .",2,2,0.9509369,0.9208217,baseline,neutral,neutral,1,ok
+"Honkarakenne also decided yesterday to sell 88,500 of its B-series shares to key staff members for EUR 2.90 per share .",2,2,0.9370539,0.88896877,baseline,neutral,neutral,1,ok
+"The utility will also provide services related to electricity management , such as hedging trades and risk management and reporting .",2,2,0.9259804,0.86342955,baseline,neutral,neutral,1,ok
+"Foodservice and consumer goods markets are served by approximately 13,000 people in 54 manufacturing units and several sales offices in 33 countries .",2,2,0.94141996,0.8995719,baseline,neutral,neutral,1,ok
+Diluted EPS rose to EUR3 .68 from EUR0 .50 .,0,0,0.95234,0.9279102,baseline,positive,positive,1,ok
+LONDON MarketWatch -- Nokia nok said it 's won a five-year services contract to run Hutchison Essar 's network operations in nine locations in India .,0,0,0.94593817,0.9071349,baseline,positive,positive,1,ok
+The ECB can mainly target inflation .,2,2,0.9267476,0.880743,baseline,neutral,neutral,1,ok
+"Operating loss was EUR 179mn , compared to a loss of EUR 188mn in the second quarter of 2009 .",0,1,0.97153634,0.9520751,baseline,positive,negative,0,misclassification
+"Some of the most recent technology deliveries include refinery technology to Anrak Aluminium , an iron ore pelletizing plant to Tata Steel and iron ore sintering plants to Bhushan Steel .",2,2,0.85582775,0.71978563,baseline,neutral,neutral,1,ok
+IonPhasE 's second major owner is venture capital firm Aura Capital .,2,2,0.9544685,0.9245442,baseline,neutral,neutral,1,ok
+"In Sweden , operating profit for the period under review totaled EUR 3.4 mn , up 30.8 % from the corresponding period in 2005 .",0,0,0.9582545,0.9356747,baseline,positive,positive,1,ok
+The transaction included also the transfer of the lease agreement concerning manufacturing premises and employment agreements related to these operations .,2,2,0.9452006,0.9135014,baseline,neutral,neutral,1,ok
+"Foundries division reports its sales increased by 9.7 % to EUR 63.1 mn from EUR 57.5 mn in the corresponding period in 2006 , and sales of the Machine Shop division increased by 16.4 % to EUR 41.2 mn from EUR 35.4 mn in the corresponding pe",0,0,0.9518006,0.9268348,baseline,positive,positive,1,ok
+"Both operating profit and net sales for the three-month period increased , respectively from EUR15 .1 m and EUR131 .5 m , as compared to the corresponding period in 2005 .",0,0,0.9585912,0.9367117,baseline,positive,positive,1,ok
+This will bring cost savings of about EUR 3mn a year .,0,0,0.93313724,0.8766755,baseline,positive,positive,1,ok
+"Food sales totalled EUR 323.5 mn in October 2009 , representing a decrease of 5.5 % from October 2008 .",1,1,0.96707124,0.94310385,baseline,negative,negative,1,ok
+The company had net sales of EUR 19.8 mn and a pre-tax profit of EUR 1.8 mn in 2005 .,2,2,0.92655545,0.876514,baseline,neutral,neutral,1,ok
+"Paychex has more than 100 offices serving approximately 554,000 payroll clients nationwide as of May 31 , 2009 .",2,2,0.93209565,0.8783582,baseline,neutral,neutral,1,ok
+"Citigroup , Inc ( NYSE : C ) has announced that its Global Transaction Services ( GTS ) business has been awarded a new mandate by Finland-based Pohjola Bank Group .",0,0,0.93854487,0.8872005,baseline,positive,positive,1,ok
+"Operating profit was EUR 24.5 mn , up from EUR 23.0 mn .",0,0,0.9562892,0.9331366,baseline,positive,positive,1,ok
+The issuer is solely responsible for the content of this announcement .,2,2,0.94892895,0.9165972,baseline,neutral,neutral,1,ok
+The contract includes heating plant equipment and associated installation work .,2,2,0.9107815,0.837733,baseline,neutral,neutral,1,ok
+"Cardona slowed her vehicle , turned around and returned to the intersection , where she called 911 .",2,2,0.69617563,0.4612555,baseline,neutral,neutral,1,ok
+"The company designs , manufactures and markets advanced composite products for industrial applications and consumer goods such as cross-country , alpine and Nordic Walking poles , floorball sticks and antenna radomes .",2,2,0.9212715,0.85440755,baseline,neutral,neutral,1,ok
+The company 's equipment rental portfolio consists primarily of tools for small and mid-sized customers in the construction industry .,2,2,0.94555026,0.9055361,baseline,neutral,neutral,1,ok
+Vianor sells tires for cars and trucks as well as a range of other car parts and provides maintenance services .,2,2,0.9402595,0.89641714,baseline,neutral,neutral,1,ok
+"ADP News - Nov 6 , 2008 - Finnish retail software developer Aldata Solution Oyj OMX : ALD1V said today that it swung to a net profit of EUR 2.1 million USD 2.7 m for the first nine months of 2008 versus a net loss of EU",0,0,0.9465921,0.9189242,baseline,positive,positive,1,ok
+"The company 's operating income ( EBIT ) totalled EUR 0.0 mn , up from EUR -0.3 mn year-on-year .",0,0,0.9544078,0.9302996,baseline,positive,positive,1,ok
+`` Printed fabrics and related design expertise have always been the core of Marimekko 's business and brand .,2,2,0.9131449,0.8380183,baseline,neutral,neutral,1,ok
+"Cash flow from operations totalled EUR 2.71 mn , compared to a negative EUR 0.83 mn in the corresponding period in 2008 .",0,0,0.8659255,0.7495349,baseline,positive,positive,1,ok
+"Having a China based operation will not only enable us to fully leverage our resources and expertise in wireless solutions , but also strengthen our capability to offer industry-leading products for our customers in China . ''",0,0,0.933468,0.87589675,baseline,positive,positive,1,ok
+Atria said its offer would give the Swedish company continued ownership and control of its slaughtering and cutting operations .,2,2,0.7515598,0.51129985,baseline,neutral,neutral,1,ok
+ND = Not disclosed .,2,2,0.92383313,0.8711757,baseline,neutral,neutral,1,ok
+"industry in Asia +ó Pakistan , Malaysia , Taiwan and Philippines Today , Global Research & Data Services is going to publish several market analyses about the cement markets in Asia .",2,2,0.9369811,0.88831645,baseline,neutral,neutral,1,ok
+Finnish metal products company Componenta Oyj net profit rose to 26.1 mln euro ( $ 35.9 mln ) for the first quarter of 2007 from 5.3 mln euro ( $ 7.3 mln ) for the same period of 2006 .,0,0,0.9518586,0.92322767,baseline,positive,positive,1,ok
+"The maximum grade of the veneer yield is calculated , based on the dimensions and grades of the veneer products , as well as by iterating the places of the peeling axes and simulating the peeling process .",2,2,0.9472093,0.91941994,baseline,neutral,neutral,1,ok
+"The financial impact is estimated to be some 1.5 MEUR annual improvement in the division 's result , starting from fiscal year 2007 .",0,0,0.94348127,0.91331273,baseline,positive,positive,1,ok
+"Target company : Tieto Corporation , Business Identity Code : 0101138-5 Date of change in holding : 22 January 2010 Portion of the shares and votes : The current group holding of OP-Pohjola Group Central Cooperative ( OPK ) is 2982 587 shar",2,2,0.9565519,0.93303096,baseline,neutral,neutral,1,ok
+"In 2010 , Sanoma Magazines expects net sales to be at the 2009 level .",2,2,0.6159008,0.24521998,baseline,neutral,neutral,1,ok
+Cramo slipped to a pretax loss of EUR 6.7 million from a pretax profit of EUR 58.9 million .,1,1,0.9733686,0.9568682,baseline,negative,negative,1,ok
+Relations with the City have been further damaged by comments from Mr Ashley criticising City investors and analysts as `` cry babies '' .,1,1,0.9654967,0.9396167,baseline,negative,negative,1,ok
+"In 2008 , Kemira recorded revenue of approximately EUR 2.8 billion and had a staff of 9,400 .",2,2,0.9433828,0.9103379,baseline,neutral,neutral,1,ok
+"says Brian Burton , Head of IT Security , Vodafone UK .",2,2,0.8608365,0.755489,baseline,neutral,neutral,1,ok
+"Also , a six-year historic analysis is provided for this market .",2,2,0.93952435,0.90023685,baseline,neutral,neutral,1,ok
+The transactions would increase earnings per share in the first quarter by some EUR0 .28 .,0,0,0.95388186,0.9231181,baseline,positive,positive,1,ok
+The online ice chart shows no ice in the area of Estonia 's sea ports on the coast of the Gulf of Finland .,2,2,0.8691056,0.77427524,baseline,neutral,neutral,1,ok
+"ADPnews - Jul 17 , 2009 - Finland-based steel maker Rautaruukki Oyj Ruukki HEL : RTRKS said today it slipped to a net loss of EUR 184 million USD 259.7 m for the first half of 2009 from a net profit of EUR 2",1,1,0.97499937,0.95872813,baseline,negative,negative,1,ok
+Finnish office supplies and computer accessories dealer Beltton-Group Plc said its net profit rose to 1.3 mln euro ( $ 1.7 mln ) in 2006 from 1.13 mln euro ( $ 1.5 mln ) in 2005 .,0,0,0.9485191,0.9167907,baseline,positive,positive,1,ok
+Juha Haapakoski will continue as Editor-in-Chief with budget responsibility also with the new publisher .,2,2,0.95268935,0.9244628,baseline,neutral,neutral,1,ok
+Finnish handling systems company Cargotec Oyj ( HEL : CGCBV ) said today that it won a EUR 13 million ( USD 16.6 m ) contract to deliver MacGregor hatch covers for ships ordered by Norwegian shipowner Grieg Shipping .,0,0,0.9460781,0.9112811,baseline,positive,positive,1,ok
+"The money will be spread mainly over 2011 and 2012 , the company said .",2,2,0.9386135,0.8900349,baseline,neutral,neutral,1,ok
+"Jeder Beta-Tester erh+ñlt kostenlos sechs Monate lang Updates und hat laut eigener Aussage die M+Âglichkeit , die finale Version zu beeinflussen .",2,2,0.8532316,0.7264832,baseline,neutral,neutral,1,ok
+"In the third quarter of fiscal 2008 Efore swung to a net loss of EUR 400,000 versus a net profit of EUR 200,000 for the corresponding period of fiscal 2007 .",1,1,0.9303723,0.87216586,baseline,negative,negative,1,ok
+"Revenue was slightly down , at  x20ac 495 million $ 634 million , compared to  x20ac 497 million a year earlier .",1,1,0.9748946,0.9576082,baseline,negative,negative,1,ok
+Diluted earnings per share ( EPS ) rose to EUR 3.68 from EUR 0.50 .,0,0,0.95430446,0.93071234,baseline,positive,positive,1,ok
+HK Ruokatalo 's target is to know the consumers .,2,2,0.9389056,0.89265996,baseline,neutral,neutral,1,ok
+He confirmed his view on July 6 .,2,2,0.90414816,0.82812124,baseline,neutral,neutral,1,ok
+Residents access to the block is planned to be from Aleksandri Street .,2,2,0.9244635,0.8592195,baseline,neutral,neutral,1,ok
+"According to CEO Matti Perkonoja of the parent company HKScan , the company 's performance in the first quarter of 2010 has remained clearly below the level of the corresponding period in 2009 .",1,1,0.9723557,0.95587564,baseline,negative,negative,1,ok
+"ADP News - Nov 13 , 2008 - Finnish printed circuit board PCB maker Aspocomp Group Oyj OMX : ACG1V said today that its net loss narrowed to EUR 2 million USD 2.5 m in the first nine months of 2008 from EUR 57",0,0,0.9393067,0.9031296,baseline,positive,positive,1,ok
+"The transaction is subject to a final agreement between the parties , approvals of their decision-making bodies and approval by the Finnish Competition Authority .",2,2,0.9089828,0.8288362,baseline,neutral,neutral,1,ok
+"( ADP News ) - Feb 6 , 2009 - Finnish fishing tackle company Rapala VMC Corp ( HEL : RAP1V ) said today its net profit rose to EUR 19.2 million ( USD 24.6 m ) for 2008 from EUR 17.5 million for 2007 .",0,0,0.9494119,0.9217098,baseline,positive,positive,1,ok
+The writing and publication of Lemmink+ñinen -¦ s history is a continuation of earlier collaboration between Antti Tuuri and the company .,2,2,0.9344544,0.88275474,baseline,neutral,neutral,1,ok
+The event can also be viewed as a live webcast at www.cargotec.com .,2,2,0.95064497,0.9160119,baseline,neutral,neutral,1,ok
+"The company can not give up palm oil altogether , however .",2,2,0.9079836,0.82625306,baseline,neutral,neutral,1,ok
+"The company operates its business through two reportable segments , including Banking and Investment Services , and Non-Life Insurance .",2,2,0.94622594,0.9067163,baseline,neutral,neutral,1,ok
+"The board machine , which will have a wire width of 6.25 m and a design speed of 900 m-min , will produce close to 1,400 tonnes of folding boxboard per day .",2,2,0.875109,0.75973165,baseline,neutral,neutral,1,ok
+"2009 3 February 2010 - Finland-based steel maker Rautaruukki Oyj ( HEL : RTRKS ) , or Ruukki , said today it slipped to a larger-than-expected pretax loss of EUR46m in the fourth quarter of 2009 from a year-earlier profit of EUR45m .",1,1,0.9752867,0.9603034,baseline,negative,negative,1,ok
+"In providing managed services , Nokia takes responsibility for building , operating and transferring as well as optimising the Indosat 3G network .",2,2,0.9160966,0.84131205,baseline,neutral,neutral,1,ok
+"Arto Ryymin , born 1964 , will replace Juhani Kaisanlahti who has worked as acting EVP , Healthcare & Welfare since August 2007 .",2,2,0.8307616,0.68779635,baseline,neutral,neutral,1,ok
+"Uponor made an operating profit of EUR 151.0 mn , up from EUR 143.7 mn , which made 2007 a record year .",0,0,0.95385706,0.928654,baseline,positive,positive,1,ok
+"Operating profit , excluding non-recurring items , totalled EUR 1.0 mn , down from EUR 1.6 mn .",1,1,0.9767469,0.96209407,baseline,negative,negative,1,ok
