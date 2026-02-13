@@ -119,9 +119,6 @@ python train.py \
 
 Open the `.pbix` file in **Microsoft Power BI Desktop** and refresh the data source to point to your local `outputs/evaluation_log.csv`.
 
-## 📈 Dashboard Preview
-
-*(Add your Power BI screenshots here to showcase the dashboard pages: Overview, Error Analysis, and Version Comparison)*
 
 ## 🔮 Future Improvements
 
